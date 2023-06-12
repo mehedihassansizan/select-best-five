@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select best five</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/012b9f097e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <section class="flex bg-black w-[1440px] h-[481px]">
+            <div class="mt-[44px]">
+                <img class="h-[460.76px] w-[411.78px]" src="img/header-mabppe.png" alt="">
+            </div>
+            <div class="grid justify-items-center pt-[138px] pb-32">
+                <h1 class="text-[#FF5E19] text-[76px] font-normal font-['Berkshire_Swash']">Select Your Best Five <span><img class="absolute right-60 top-56" src="img/Line Marker.png" alt=""></span></h1>
+                <p class="leading-[30px] text-[19px] tracking-[-0.02em] font-bold text-white text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit<br>officia consequat duis enim velit mollit. Exercitation veniam consequat sunt <br> nostrud amet.</p>
+            </div>
+            <div>
+                <img class="absolute top-20 mx-12" src="img/header-card.png" alt="">
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="grid grid-cols-4 gap-32 mt-10 mx-[156px]">
+            <div class="w-[264px] h-[371px] border border-[#434343]">
+                <div>
+                    <img src="img/messi.png" alt="">
+                </div>
+                <div class="pt-8">
+                    <h1 id="messi" class="text-[24px] text-white text-center font-bold">Lionel Messi</h1>
+                </div>
+                <div class="flex gap-4 ml-[50px] mt-[10px]">
+                    <h1 class="text-[#B3B3B3] font-bold ">36 Goals</h1>
+                    <h1 class="flex text-[#B3B3B3] font-bold">120 Assist</h1>
+                </div>
+                <div class="grid justify-items-center mt-[10px]">
+                    <button id="messi-btn" class="w-[221px] h-[42px] text-white font-bold bg-[#015196]">Select</button>
+                </div>
+            </div>
+
+            <!-- 2 -->
+
+            <div class="w-[264px] h-[371px] border border-[#434343]">
+                <div>
+                    <img src="img/neymer.png" alt="">
+                </div>
+                <div class="pt-8">
+                    <h1 id="neymer" class="text-[24px] text-white text-center font-bold">Neymer Jr</h1>
+                </div>
+                <div class="flex gap-4 ml-[50px] mt-[10px]">
+                    <h1 class="text-[#B3B3B3] font-bold ">40 Goals</h1>
+                    <h1 class="flex text-[#B3B3B3] font-bold">100 Assist</h1>
+                </div>
+                <div class="grid justify-items-center mt-[10px]">
+                    <button id="neymer-btn" class="w-[221px] h-[42px] text-white font-bold bg-[#015196]">Select</button>
+                </div>
+            </div>
+
+            <!-- 3 -->
+
+            <div class="w-[264px] h-[371px] border border-[#434343]">
+                <div>
+                    <img src="img/boss.png" alt="">
+                </div>
+                <div class="pt-8">
+                    <h1 id="Sergio" class="text-[24px] text-white text-center font-bold">Sergio Ramos</h1>
+                </div>
+                <div class="flex gap-4 ml-[50px] mt-[10px]">
+                    <h1 class="text-[#B3B3B3] font-bold ">20 Goals</h1>
+                    <h1 class="flex text-[#B3B3B3] font-bold">90 Assist</h1>
+                </div>
+                <div class="grid justify-items-center mt-[10px]">
+                    <button id="Ramos-btn" class="w-[221px] h-[42px] text-white font-bold bg-[#015196]">Select</button>
+                </div>
+            </div>
+
+            <!-- cal -->
+            <div class="w-[264px] h-[371px] border border-[#434343]">
+                <h1 class="text-[24px] text-white text-bold text-center pt-4">Selected-V <span class="grid justify-items-center"><img class="" src="img/Ureg-Ureg Marker.png" alt=""></span></h1>
+                <div class="pl-8 pt-2 ">
+                    <ul id="unoder-list" class="text-white text-2xl leading-loose">
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="grid grid-cols-4 gap-32 mt-10 mx-[156px]">
+            <div class="w-[264px] h-[371px] border border-[#434343]">
+                <div>
+                    <img src="img/hula.png" alt="">
+                </div>
+                <div class="pt-8">
+                    <h1 id="Vítor" class="text-[24px] text-white text-center font-bold">Vítor Machado</h1>
+                </div>
+                <div class="flex gap-4 ml-[50px] mt-[10px]">
+                    <h1 class="text-[#B3B3B3] font-bold ">26 Goals</h1>
+                    <h1 class="flex text-[#B3B3B3] font-bold">80 Assist</h1>
+                </div>
+                <div class="grid justify-items-center mt-[10px]">
+                    <button id="Vítor-btn" class="w-[221px] h-[42px] text-white font-bold bg-[#015196]">Select</button>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="w-[264px] h-[371px] border border-[#434343]">
+                <div>
+                    <img src="img/mbbape.png" alt="">
+                </div>
+                <div class="pt-8">
+                    <h1 id="Mbappé" class="text-[24px] text-white text-center font-bold">Kylian Mbappé</h1>
+                </div>
+                <div class="flex gap-4 ml-[50px] mt-[10px]">
+                    <h1 class="text-[#B3B3B3] font-bold ">30 Goals</h1>
+                    <h1 class="flex text-[#B3B3B3] font-bold">110 Assist</h1>
+                </div>
+                <div class="grid justify-items-center mt-[10px]">
+                    <button id="Mbappé-btn" class="w-[221px] h-[42px] text-white font-bold bg-[#015196]">Select</button>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="w-[264px] h-[371px] border border-[#434343]">
+                <div>
+                    <img src="img/vela.png" alt="">
+                </div>
+                <div class="pt-8">
+                    <h1 id="Renato" class="text-[24px] text-white text-center font-bold">Renato Sanches</h1>
+                </div>
+                <div class="flex gap-4 ml-[50px] mt-[10px]">
+                    <h1 class="text-[#B3B3B3] font-bold ">28 Goals</h1>
+                    <h1 class="flex text-[#B3B3B3] font-bold">100 Assist</h1>
+                </div>
+                <div class="grid justify-items-center mt-[10px]">
+                    <button id="Renato-btn" class="w-[221px] h-[42px] text-white font-bold bg-[#015196]">Select</button>
+                </div>
+            </div>
+
+            <!-- cal -->
+            
+            <div class=" h-[514px] w-[264px] border border-[#434343]">
+                <h1 class="text-[24px] text-white text-bold text-center pt-4">Budget <span class="grid justify-items-center"><img class="" src="img/Ureg-Ureg Marker.png" alt=""></span></h1>
+
+                <h1 class="text-xl pl-6 pt-4"><span class="text-[#AFAFAF] pr-4">Per player</span><input id="per-plyer-price" class="pl-2 w-[121px] h-[42px] bg-[#151515] border border-white text-white" type="number"></h1>
+                <button id="cal-1" class="w-[221px] h-[42px] text-white font-bold bg-[#015196] mt-8 ml-[21px]">Calculate</button>
+                <h1 class="text-xl pl-6 pt-4 text-[#AFAFAF]"> Player Expenses <span class="pl-4 text-white"> $<span id="expenses">00</span> </span></h1>
+                <h1 class="text-xl pl-6 pt-4"><span class="text-[#AFAFAF] pr-4">Manager</span><input id="manager-input" class="pl-2 w-[121px] h-[42px] bg-[#151515] border border-white text-white ml-2" type="number"></h1>
+                <h1 class="text-xl pl-6 pt-4"><span class="text-[#AFAFAF] pr-4">Coach</span><input id="coach-input" class="pl-2 w-[121px] h-[42px] bg-[#151515] border border-white text-white ml-8" type="number"></h1>
+                <button id="cal-total" class="w-[221px] h-[42px] text-white font-bold bg-[#015196] mt-8 ml-[21px]">Calculate Total</button>
+                <h1 class="text-xl pl-6 pt-8 text-[#AFAFAF]"> Player Expenses <span class="pl-4 text-[#FF5E19]"> $<span id="total-taka">00</span></span></h1>
+            </div>
+        </section>
+        <section class="grid grid-cols-4 gap-32 relative top-[-100px] mx-[156px]">
+            <div class="w-[264px] h-[371px] border border-[#434343]">
+                <div>
+                    <img src="img/messi.png" alt="">
+                </div>
+                <div class="pt-8">
+                    <h1 id="Gianluigi" class="text-[24px] text-white text-center font-bold">Gianluigi Donaruma</h1>
+                </div>
+                <div class="flex gap-4 ml-[50px] mt-[10px]">
+                    <h1 class="text-[#B3B3B3] font-bold ">26 Goals</h1>
+                    <h1 class="flex text-[#B3B3B3] font-bold">80 Assist</h1>
+                </div>
+                <div class="grid justify-items-center mt-[10px]">
+                    <button id="Gianluigi-btn" class="w-[221px] h-[42px] text-white font-bold bg-[#015196]">Select</button>
+                </div>
+            </div>
+
+            <div class="w-[264px] h-[371px] border border-[#434343]">
+                <div>
+                    <img src="img/neymer.png" alt="">
+                </div>
+                <div class="pt-8">
+                    <h1 id="Achraf" class="text-[24px] text-white text-center font-bold">Achraf Hakimi</h1>
+                </div>
+                <div class="flex gap-4 ml-[50px] mt-[10px]">
+                    <h1 class="text-[#B3B3B3] font-bold ">60 Goals</h1>
+                    <h1 class="flex text-[#B3B3B3] font-bold">120 Assist</h1>
+                </div>
+                <div class="grid justify-items-center mt-[10px]">
+                    <button id="Hakimi-btn" class="w-[221px] h-[42px] text-white font-bold bg-[#015196]">Select</button>
+                </div>
+            </div>
+
+            <div class="w-[264px] h-[371px] border border-[#434343]">
+                <div>
+                    <img src="img/mbbape.png" alt="">
+                </div>
+                <div class="pt-8">
+                    <h1 id="Nordi" class="text-[24px] text-white text-center font-bold">Nordi Mukiele</h1>
+                </div>
+                <div class="flex gap-4 ml-[50px] mt-[10px]">
+                    <h1 class="text-[#B3B3B3] font-bold ">69 Goals</h1>
+                    <h1 class="flex text-[#B3B3B3] font-bold">87 Assist</h1>
+                </div>
+                <div class="grid justify-items-center mt-[10px]">
+                    <button id="Nordi-btn" class="w-[221px] h-[42px] text-white font-bold bg-[#015196]">Select</button>
+                </div>
+            </div>            
+        </section>
+
+        <section class="grid grid-cols-4 gap-32 mx-[156px] relative top-[-50px]">
+            <div class="w-[264px] h-[371px] border border-[#434343]">
+                <div>
+                    <img src="img/vela.png" alt="">
+                </div>
+                <div class="pt-8">
+                    <h1 id="Ander" class="text-[24px] text-white text-center font-bold">Ander Herrera</h1>
+                </div>
+                <div class="flex gap-4 ml-[50px] mt-[10px]">
+                    <h1 class="text-[#B3B3B3] font-bold ">50 Goals</h1>
+                    <h1 class="flex text-[#B3B3B3] font-bold">60 Assist</h1>
+                </div>
+                <div class="grid justify-items-center mt-[10px]">
+                    <button id="Ander-btn" class="w-[221px] h-[42px] text-white font-bold bg-[#015196]">Select</button>
+                </div>
+            </div>
+            <div class="w-[264px] h-[371px] border border-[#434343]">
+                <div>
+                    <img src="img/hula.png" alt="">
+                </div>
+                <div class="pt-8">
+                    <h1 id="Presnel" class="text-[24px] text-white text-center font-bold">Presnel Kimpembe</h1>
+                </div>
+                <div class="flex gap-4 ml-[50px] mt-[10px]">
+                    <h1 class="text-[#B3B3B3] font-bold ">23 Goals</h1>
+                    <h1 class="flex text-[#B3B3B3] font-bold">20 Assist</h1>
+                </div>
+                <div class="grid justify-items-center mt-[10px]">
+                    <button id="Presnel-btn" class="w-[221px] h-[42px] text-white font-bold bg-[#015196]">Select</button>
+                </div>
+            </div>
+            <div class="w-[264px] h-[371px] border border-[#434343]">
+                <div>
+                    <img src="img/boss.png" alt="">
+                </div>
+                <div class="pt-8">
+                    <h1 id="Marco" class="text-[24px] text-white text-center font-bold">Marco Verratti</h1>
+                </div>
+                <div class="flex gap-4 ml-[50px] mt-[10px]">
+                    <h1 class="text-[#B3B3B3] font-bold ">6 Goals</h1>
+                    <h1 class="flex text-[#B3B3B3] font-bold">12 Assist</h1>
+                </div>
+                <div class="grid justify-items-center mt-[10px]">
+                    <button id="Marco-btn" class="w-[221px] h-[42px] text-white font-bold bg-[#015196]">Select</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="border-t-2 border-[#717171] w-[1440px]">
+            <h1 class="text-2xl text-white text-bold text-center mt-8 mb-8">Copyright @ 2022 All Rights Reserved.</h1>
+        </section>
+    </footer>
+    <script src="js/utilites.js"></script>
+    <script src="js/first-one.js"></script>
+    <script src="js/sec-one.js"></script>
+</body>
+</html>

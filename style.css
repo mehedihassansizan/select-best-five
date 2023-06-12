@@ -1,0 +1,8 @@
+body{
+    background-color: #151515;
+}
+.H{
+    background-image: url(img/ball.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+};
